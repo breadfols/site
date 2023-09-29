@@ -9,7 +9,7 @@
     <style type="text/css"></style>
 </head>
 <body><div class="container">
-   <div><img class="img_head" src="2.jpg"></div>
+   <div><img class="img_head" src="2.jpg" alt=""></div>
     <div><h2 class="family1">Семиряков Дмитрий</h2></div>
     <div><h3 class="family1">Fronter developer</h3></div>
     <div class="header_contact"><h2>Контакты:</h2></div>
@@ -65,5 +65,31 @@
     <form action="" class="forma_text"><input type="text" placeholder="Ваш вопрос"></form>
     <form action="" class="button"><button>Отправить</button></form>
 </footer>
-</div> 
+<div class="wraper">
+    <div class="todo_list">
+        <div class="todo_list_contols">
+            <input class="todo_list_input" type="text" id="input">
+            <button class="todo_list_button">Добавить</button>
+        </div>
+        <div class="todo_list_field">
+            <div class="todo_list_item">
+                <input type="checkbox">
+                <p class="todo_list_item-text">Some text</p>
+                <img class="img_trash" src="trash.png">
+            </div>
+            <div class="todo_list_item">
+                <input type="checkbox">
+                <p class="todo_list_item-text">Some text</p>
+                <img class="img_trash" src="trash.png">
+            </div>
+            <div class="todo_list_item todo_list_item_done">
+                <input type="checkbox">
+                <p class="todo_list_item-text">Some text</p>
+                <img src="trash.png">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
+</html>
