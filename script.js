@@ -14,7 +14,7 @@ function onBtnclick(){
     text.innerText= inputEl.value
 
     const img=document.createElement('img')   
-    img.src='trash.png'
+    img.src='image/trash.png'
 
     divEl.appendChild(checkbox)
     divEl.appendChild(text)
@@ -24,3 +24,8 @@ function onBtnclick(){
  }
 }
 btnEl.addEventListener('click', onBtnclick)
+
+const btn=document.querySelector('.button')
+btn.addEventListener('click',(e)=>{
+   e.preventDefault()
+})
